@@ -16,7 +16,7 @@ These tasks comprise the automated continuous integration part of the pipeline. 
 a candidate-release is properly vetted, the "ship-it" task can be manually invoked to
 put the final-release version in a different S3 bucket.
 
-## Prerequisites
+## Prerequisites 
 
 Here are a few things you'll need:
 
