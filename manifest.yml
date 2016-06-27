@@ -1,7 +1,7 @@
 ---
 applications:
-- name: rj-pcfdemo
+- name: studentXXX-pcfdemo
   memory: 512M 
   instances: 1
-  host: rj-pcfdemo
+  host: studentXXX-pcfdemo
   path: ./target/pcfdemo.war
