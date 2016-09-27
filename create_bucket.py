@@ -5,9 +5,7 @@ for i in range(1,25):
   bucketName = "student"+`i`+"-pcfdemo-releases"
   bucketNameRC = "student"+`i`+"-pcfdemo-release-candidates"
   print bucketName
-  s3.create_bucket(Bucket=bucketName, CreateBucketConfiguration={
-    'LocationConstraint': 'us-west-1'})
-  s3.create_bucket(Bucket=bucketNameRC, CreateBucketConfiguration={
-    'LocationConstraint': 'us-west-1'})
+  s3.create_bucket(Bucket=bucketName)
+  s3.create_bucket(Bucket=bucketNameRC)
 
 
